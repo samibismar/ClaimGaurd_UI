@@ -25,7 +25,4 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Hide the Next.js dev indicator ("N" in bottom-left corner) */
-#__next-prerender-indicator {
-  display: none !important;
-}
+
