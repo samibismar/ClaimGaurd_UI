@@ -55,7 +55,7 @@ export default function Home() {
       const data = await res.json();
       setRisk(data.denial_risk);
       setReasons(data.reasons || []);
-    } catch (err: any) {
+    } catch {
       setError("Failed to get prediction.");
     }
 
